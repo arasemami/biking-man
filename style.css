@@ -38,11 +38,11 @@ body {
 
 @keyframes bike {
     from {
-        transform: rotateX(0);
+        transform: rotateX(0) rotateZ(0);
     }
 
     to {
-        transform: rotateX(10deg);
+        transform: rotateX(15deg) rotateZ(1deg);
     }
 }
 
